@@ -1,0 +1,10 @@
+# ninja log v6
+3	449	7939873910794702	myproject_1_autogen/timestamp	a1ef22f7f3ff8429
+3	449	7939873910794702	myproject_1_autogen/mocs_compilation.cpp	a1ef22f7f3ff8429
+3	449	7939873910794702	E:/qt_project/myproject_1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/myproject_1_autogen/timestamp	a1ef22f7f3ff8429
+3	449	7939873910794702	E:/qt_project/myproject_1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/myproject_1_autogen/mocs_compilation.cpp	a1ef22f7f3ff8429
+460	2479	7939873911527331	CMakeFiles/myproject_1.dir/copyworker.cpp.obj	b0767be11abd6425
+455	2626	7939873911516750	CMakeFiles/myproject_1.dir/main.cpp.obj	1441f09bc2b2328b
+452	2794	7939873911486905	CMakeFiles/myproject_1.dir/myproject_1_autogen/mocs_compilation.cpp.obj	b9d715b90ed11ae2
+457	3092	7939873911527331	CMakeFiles/myproject_1.dir/mainwindow.cpp.obj	4fc1ed29dff44a93
+3093	3273	7939873937885626	myproject_1.exe	d90d3c686f8b3e94
