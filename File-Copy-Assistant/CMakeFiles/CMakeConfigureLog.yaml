@@ -1,0 +1,2675 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/share/cmake-4.3/Modules/"
+    found: "D:/cmake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.7.8+1ac568fee
+      鐢熸垚鍚姩鏃堕棿涓?2026/9/6 0:50:17銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\vs\\ide\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\vs\\ide\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\vs\\ide\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.77
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/qt_project/File-Copy-Assistant/CMakeFiles/4.3.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/"
+      - "E:/apache-tomcat-9.0.105/bin/"
+      - "E:/apache-tomcat-9.0.105/lib/"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/mys/"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/python3.13/"
+      - "E:/python3.13/Scripts/"
+      - "D:/java/node-v14.21.3-win-x64/"
+      - "D:/Git/cmd/"
+      - "C:/Strawberry/c/bin/"
+      - "C:/Strawberry/perl/site/bin/"
+      - "C:/Strawberry/perl/bin/"
+      - "D:/cmake/bin/"
+      - "D:/nodejs/"
+      - "C:/Users/HP/AppData/Roaming/npm/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/HP/.dotnet/tools/"
+      - "C:/Program Files/ClaudeCode/"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/"
+    searched_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/"
+      - "E:/apache-tomcat-9.0.105/bin/"
+      - "E:/apache-tomcat-9.0.105/lib/"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/mys/"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/python3.13/"
+      - "E:/python3.13/Scripts/"
+      - "D:/java/node-v14.21.3-win-x64/"
+      - "D:/Git/cmd/"
+      - "C:/Strawberry/c/bin/"
+      - "C:/Strawberry/perl/site/bin/"
+      - "C:/Strawberry/perl/bin/"
+      - "D:/cmake/bin/"
+      - "D:/nodejs/"
+      - "C:/Users/HP/AppData/Roaming/npm/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/HP/.dotnet/tools/"
+      - "C:/Program Files/ClaudeCode/"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/"
+    searched_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/lld-link"
+      - "E:/apache-tomcat-9.0.105/bin/lld-link.com"
+      - "E:/apache-tomcat-9.0.105/bin/lld-link.exe"
+      - "E:/apache-tomcat-9.0.105/bin/lld-link"
+      - "E:/apache-tomcat-9.0.105/lib/lld-link.com"
+      - "E:/apache-tomcat-9.0.105/lib/lld-link.exe"
+      - "E:/apache-tomcat-9.0.105/lib/lld-link"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/lld-link.com"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/lld-link.exe"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/lld-link"
+      - "D:/mys/lld-link.com"
+      - "D:/mys/lld-link.exe"
+      - "D:/mys/lld-link"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/lld-link.com"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/lld-link.exe"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "E:/python3.13/lld-link.com"
+      - "E:/python3.13/lld-link.exe"
+      - "E:/python3.13/lld-link"
+      - "E:/python3.13/Scripts/lld-link.com"
+      - "E:/python3.13/Scripts/lld-link.exe"
+      - "E:/python3.13/Scripts/lld-link"
+      - "D:/java/node-v14.21.3-win-x64/lld-link.com"
+      - "D:/java/node-v14.21.3-win-x64/lld-link.exe"
+      - "D:/java/node-v14.21.3-win-x64/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "C:/Strawberry/c/bin/lld-link.com"
+      - "C:/Strawberry/c/bin/lld-link.exe"
+      - "C:/Strawberry/c/bin/lld-link"
+      - "C:/Strawberry/perl/site/bin/lld-link.com"
+      - "C:/Strawberry/perl/site/bin/lld-link.exe"
+      - "C:/Strawberry/perl/site/bin/lld-link"
+      - "C:/Strawberry/perl/bin/lld-link.com"
+      - "C:/Strawberry/perl/bin/lld-link.exe"
+      - "C:/Strawberry/perl/bin/lld-link"
+      - "D:/cmake/bin/lld-link.com"
+      - "D:/cmake/bin/lld-link.exe"
+      - "D:/cmake/bin/lld-link"
+      - "D:/nodejs/lld-link.com"
+      - "D:/nodejs/lld-link.exe"
+      - "D:/nodejs/lld-link"
+      - "C:/Users/HP/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/HP/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/HP/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "E:/Python/Scripts/lld-link.com"
+      - "E:/Python/Scripts/lld-link.exe"
+      - "E:/Python/Scripts/lld-link"
+      - "E:/Python/lld-link.com"
+      - "E:/Python/lld-link.exe"
+      - "E:/Python/lld-link"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/lld-link.com"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/lld-link.exe"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/lld-link"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/lld-link.com"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/lld-link.exe"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/lld-link"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/lld-link.com"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/lld-link.exe"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/HP/.dotnet/tools/lld-link.com"
+      - "C:/Users/HP/.dotnet/tools/lld-link.exe"
+      - "C:/Users/HP/.dotnet/tools/lld-link"
+      - "C:/Program Files/ClaudeCode/lld-link.com"
+      - "C:/Program Files/ClaudeCode/lld-link.exe"
+      - "C:/Program Files/ClaudeCode/lld-link"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/lld-link.com"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/lld-link.exe"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/"
+      - "E:/apache-tomcat-9.0.105/bin/"
+      - "E:/apache-tomcat-9.0.105/lib/"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/mys/"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/python3.13/"
+      - "E:/python3.13/Scripts/"
+      - "D:/java/node-v14.21.3-win-x64/"
+      - "D:/Git/cmd/"
+      - "C:/Strawberry/c/bin/"
+      - "C:/Strawberry/perl/site/bin/"
+      - "C:/Strawberry/perl/bin/"
+      - "D:/cmake/bin/"
+      - "D:/nodejs/"
+      - "C:/Users/HP/AppData/Roaming/npm/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/HP/.dotnet/tools/"
+      - "C:/Program Files/ClaudeCode/"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/"
+    searched_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/"
+      - "E:/apache-tomcat-9.0.105/bin/"
+      - "E:/apache-tomcat-9.0.105/lib/"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/mys/"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/python3.13/"
+      - "E:/python3.13/Scripts/"
+      - "D:/java/node-v14.21.3-win-x64/"
+      - "D:/Git/cmd/"
+      - "C:/Strawberry/c/bin/"
+      - "C:/Strawberry/perl/site/bin/"
+      - "C:/Strawberry/perl/bin/"
+      - "D:/cmake/bin/"
+      - "D:/nodejs/"
+      - "C:/Users/HP/AppData/Roaming/npm/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/HP/.dotnet/tools/"
+      - "C:/Program Files/ClaudeCode/"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/"
+    searched_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.com"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/mt.com"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/mt.exe"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/mt.com"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/mt.exe"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/mt"
+      - "E:/apache-tomcat-9.0.105/bin/mt.com"
+      - "E:/apache-tomcat-9.0.105/bin/mt.exe"
+      - "E:/apache-tomcat-9.0.105/bin/mt"
+      - "E:/apache-tomcat-9.0.105/lib/mt.com"
+      - "E:/apache-tomcat-9.0.105/lib/mt.exe"
+      - "E:/apache-tomcat-9.0.105/lib/mt"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/mt.com"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/mt.exe"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/mt"
+      - "D:/mys/mt.com"
+      - "D:/mys/mt.exe"
+      - "D:/mys/mt"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/mt.com"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/mt.exe"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/mt"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "E:/python3.13/mt.com"
+      - "E:/python3.13/mt.exe"
+      - "E:/python3.13/mt"
+      - "E:/python3.13/Scripts/mt.com"
+      - "E:/python3.13/Scripts/mt.exe"
+      - "E:/python3.13/Scripts/mt"
+      - "D:/java/node-v14.21.3-win-x64/mt.com"
+      - "D:/java/node-v14.21.3-win-x64/mt.exe"
+      - "D:/java/node-v14.21.3-win-x64/mt"
+      - "D:/Git/cmd/mt.com"
+      - "D:/Git/cmd/mt.exe"
+      - "D:/Git/cmd/mt"
+      - "C:/Strawberry/c/bin/mt.com"
+      - "C:/Strawberry/c/bin/mt.exe"
+      - "C:/Strawberry/c/bin/mt"
+      - "C:/Strawberry/perl/site/bin/mt.com"
+      - "C:/Strawberry/perl/site/bin/mt.exe"
+      - "C:/Strawberry/perl/site/bin/mt"
+      - "C:/Strawberry/perl/bin/mt.com"
+      - "C:/Strawberry/perl/bin/mt.exe"
+      - "C:/Strawberry/perl/bin/mt"
+      - "D:/cmake/bin/mt.com"
+      - "D:/cmake/bin/mt.exe"
+      - "D:/cmake/bin/mt"
+      - "D:/nodejs/mt.com"
+      - "D:/nodejs/mt.exe"
+      - "D:/nodejs/mt"
+      - "C:/Users/HP/AppData/Roaming/npm/mt.com"
+      - "C:/Users/HP/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/HP/AppData/Roaming/npm/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "E:/Python/Scripts/mt.com"
+      - "E:/Python/Scripts/mt.exe"
+      - "E:/Python/Scripts/mt"
+      - "E:/Python/mt.com"
+      - "E:/Python/mt.exe"
+      - "E:/Python/mt"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/mt"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/mt.com"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/mt.exe"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/mt"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/mt.com"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/mt.exe"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/mt"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/mt.com"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/mt.exe"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/mt"
+      - "D:/Microsoft VS Code/bin/mt.com"
+      - "D:/Microsoft VS Code/bin/mt.exe"
+      - "D:/Microsoft VS Code/bin/mt"
+      - "C:/Users/HP/.dotnet/tools/mt.com"
+      - "C:/Users/HP/.dotnet/tools/mt.exe"
+      - "C:/Users/HP/.dotnet/tools/mt"
+      - "C:/Program Files/ClaudeCode/mt.com"
+      - "C:/Program Files/ClaudeCode/mt.exe"
+      - "C:/Program Files/ClaudeCode/mt"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/mt.com"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/mt.exe"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/"
+      - "E:/apache-tomcat-9.0.105/bin/"
+      - "E:/apache-tomcat-9.0.105/lib/"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/mys/"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/python3.13/"
+      - "E:/python3.13/Scripts/"
+      - "D:/java/node-v14.21.3-win-x64/"
+      - "D:/Git/cmd/"
+      - "C:/Strawberry/c/bin/"
+      - "C:/Strawberry/perl/site/bin/"
+      - "C:/Strawberry/perl/bin/"
+      - "D:/cmake/bin/"
+      - "D:/nodejs/"
+      - "C:/Users/HP/AppData/Roaming/npm/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/HP/.dotnet/tools/"
+      - "C:/Program Files/ClaudeCode/"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/"
+    searched_directories:
+      - "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/cmake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "D:/cmake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "D:/cmake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/"
+      - "E:/apache-tomcat-9.0.105/bin/"
+      - "E:/apache-tomcat-9.0.105/lib/"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/"
+      - "D:/mys/"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/python3.13/"
+      - "E:/python3.13/Scripts/"
+      - "D:/java/node-v14.21.3-win-x64/"
+      - "D:/Git/cmd/"
+      - "C:/Strawberry/c/bin/"
+      - "C:/Strawberry/perl/site/bin/"
+      - "C:/Strawberry/perl/bin/"
+      - "D:/cmake/bin/"
+      - "D:/nodejs/"
+      - "C:/Users/HP/AppData/Roaming/npm/"
+      - "C:/Program Files/dotnet/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/HP/.dotnet/tools/"
+      - "C:/Program Files/ClaudeCode/"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/cmake/bin/"
+      - "D:/cmake/sbin/"
+      - "D:/cmake/"
+      - "C:/Program Files (x86)/File-Copy-Assistant/bin/"
+      - "C:/Program Files (x86)/File-Copy-Assistant/sbin/"
+      - "C:/Program Files (x86)/File-Copy-Assistant/"
+    searched_directories:
+      - "C:/ProgramData/Oracle/Java/javapath/rc.com"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/rc.com"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/rc.exe"
+      - "C:/Program Files/Java/jdk1.8.0_144/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/rc.com"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/rc.exe"
+      - "C:/Program Files/Java/jdk1.8.0_144/jre/bin/rc"
+      - "E:/apache-tomcat-9.0.105/bin/rc.com"
+      - "E:/apache-tomcat-9.0.105/bin/rc.exe"
+      - "E:/apache-tomcat-9.0.105/bin/rc"
+      - "E:/apache-tomcat-9.0.105/lib/rc.com"
+      - "E:/apache-tomcat-9.0.105/lib/rc.exe"
+      - "E:/apache-tomcat-9.0.105/lib/rc"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/rc.com"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/rc.exe"
+      - "D:/wechatapp/\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177/dll/rc"
+      - "D:/mys/rc.com"
+      - "D:/mys/rc.exe"
+      - "D:/mys/rc"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/rc.com"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/rc.exe"
+      - "E:/qt_project/File-Copy-Assistant/l-8.0.42-winx64/bin/rc"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "E:/python3.13/rc.com"
+      - "E:/python3.13/rc.exe"
+      - "E:/python3.13/rc"
+      - "E:/python3.13/Scripts/rc.com"
+      - "E:/python3.13/Scripts/rc.exe"
+      - "E:/python3.13/Scripts/rc"
+      - "D:/java/node-v14.21.3-win-x64/rc.com"
+      - "D:/java/node-v14.21.3-win-x64/rc.exe"
+      - "D:/java/node-v14.21.3-win-x64/rc"
+      - "D:/Git/cmd/rc.com"
+      - "D:/Git/cmd/rc.exe"
+      - "D:/Git/cmd/rc"
+      - "C:/Strawberry/c/bin/rc.com"
+      - "C:/Strawberry/c/bin/rc.exe"
+      - "C:/Strawberry/c/bin/rc"
+      - "C:/Strawberry/perl/site/bin/rc.com"
+      - "C:/Strawberry/perl/site/bin/rc.exe"
+      - "C:/Strawberry/perl/site/bin/rc"
+      - "C:/Strawberry/perl/bin/rc.com"
+      - "C:/Strawberry/perl/bin/rc.exe"
+      - "C:/Strawberry/perl/bin/rc"
+      - "D:/cmake/bin/rc.com"
+      - "D:/cmake/bin/rc.exe"
+      - "D:/cmake/bin/rc"
+      - "D:/nodejs/rc.com"
+      - "D:/nodejs/rc.exe"
+      - "D:/nodejs/rc"
+      - "C:/Users/HP/AppData/Roaming/npm/rc.com"
+      - "C:/Users/HP/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/HP/AppData/Roaming/npm/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "E:/Python/Scripts/rc.com"
+      - "E:/Python/Scripts/rc.exe"
+      - "E:/Python/Scripts/rc"
+      - "E:/Python/rc.com"
+      - "E:/Python/rc.exe"
+      - "E:/Python/rc"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/rc"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/rc.com"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/rc.exe"
+      - "E:/Pycharm/PyCharm 2025.3.3/bin/rc"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/rc.com"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/rc.exe"
+      - "E:/PyCharm Community Edition 2024.3.5/bin/rc"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/rc.com"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/rc.exe"
+      - "E:/IntelliJ IDEA 2022.3.3/bin/rc"
+      - "D:/Microsoft VS Code/bin/rc.com"
+      - "D:/Microsoft VS Code/bin/rc.exe"
+      - "D:/Microsoft VS Code/bin/rc"
+      - "C:/Users/HP/.dotnet/tools/rc.com"
+      - "C:/Users/HP/.dotnet/tools/rc.exe"
+      - "C:/Users/HP/.dotnet/tools/rc"
+      - "C:/Program Files/ClaudeCode/rc.com"
+      - "C:/Program Files/ClaudeCode/rc.exe"
+      - "C:/Program Files/ClaudeCode/rc"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/rc.com"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/rc.exe"
+      - "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/cmake/bin/rc.com"
+      - "D:/cmake/bin/rc.exe"
+      - "D:/cmake/bin/rc"
+      - "D:/cmake/sbin/rc.com"
+      - "D:/cmake/sbin/rc.exe"
+      - "D:/cmake/sbin/rc"
+      - "D:/cmake/rc.com"
+      - "D:/cmake/rc.exe"
+      - "D:/cmake/rc"
+      - "C:/Program Files (x86)/File-Copy-Assistant/bin/rc.com"
+      - "C:/Program Files (x86)/File-Copy-Assistant/bin/rc.exe"
+      - "C:/Program Files (x86)/File-Copy-Assistant/bin/rc"
+      - "C:/Program Files (x86)/File-Copy-Assistant/sbin/rc.com"
+      - "C:/Program Files (x86)/File-Copy-Assistant/sbin/rc.exe"
+      - "C:/Program Files (x86)/File-Copy-Assistant/sbin/rc"
+      - "C:/Program Files (x86)/File-Copy-Assistant/rc.com"
+      - "C:/Program Files (x86)/File-Copy-Assistant/rc.exe"
+      - "C:/Program Files (x86)/File-Copy-Assistant/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/File-Copy-Assistant"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmake"
+        - "C:/Program Files (x86)/File-Copy-Assistant"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/qt_project/File-Copy-Assistant/CMakeFiles/CMakeScratch/TryCompile-djle5n"
+      binary: "E:/qt_project/File-Copy-Assistant/CMakeFiles/CMakeScratch/TryCompile-djle5n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/qt_project/File-Copy-Assistant/CMakeFiles/CMakeScratch/TryCompile-djle5n'
+        
+        Run Build Command(s): D:/vs/ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_92b34.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.7.8+1ac568fee
+        鐢熸垚鍚姩鏃堕棿涓?2026/9/6 0:50:19銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\CMakeScratch\\TryCompile-djle5n\\cmTC_92b34.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\CMakeScratch\\TryCompile-djle5n\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_92b34.dir\\Debug\\cmTC_92b34.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_92b34.dir\\Debug\\cmTC_92b34.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_92b34.dir\\Debug\\cmTC_92b34.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_92b34.dir\\Debug\\\\" /Fd"cmTC_92b34.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\cmake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_92b34.dir\\Debug\\\\" /Fd"cmTC_92b34.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\cmake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\CMakeScratch\\TryCompile-djle5n\\Debug\\cmTC_92b34.exe" /INCREMENTAL /ILK:"cmTC_92b34.dir\\Debug\\cmTC_92b34.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/qt_project/File-Copy-Assistant/CMakeFiles/CMakeScratch/TryCompile-djle5n/Debug/cmTC_92b34.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/qt_project/File-Copy-Assistant/CMakeFiles/CMakeScratch/TryCompile-djle5n/Debug/cmTC_92b34.lib" /MACHINE:X64  /machine:x64 cmTC_92b34.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_92b34.vcxproj -> E:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\CMakeScratch\\TryCompile-djle5n\\Debug\\cmTC_92b34.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_92b34.dir\\Debug\\cmTC_92b34.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_92b34.dir\\Debug\\cmTC_92b34.tlog\\cmTC_92b34.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\qt_project\\File-Copy-Assistant\\CMakeFiles\\CMakeScratch\\TryCompile-djle5n\\cmTC_92b34.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/cmake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/vs/ide/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36248.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:14 (find_package)"
+    name: "QT"
+    components:
+      -
+        name: "Widgets"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt6.cps"
+        kind: "cps"
+      -
+        filename: "qt6.cps"
+        kind: "cps"
+      -
+        filename: "Qt6Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6-config.cmake"
+        kind: "cmake"
+      -
+        filename: "Qt5.cps"
+        kind: "cps"
+      -
+        filename: "qt5.cps"
+        kind: "cps"
+      -
+        filename: "Qt5Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6"
+        - "Qt5"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/qt_project/File-Copy-Assistant/CMakeFiles/pkgRedirects/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/Oracle/Java/javapath/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk1.8.0_144/jre/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Git/cmd/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/c/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/site/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Strawberry/perl/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/nodejs/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Roaming/npm/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Scripts/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Python/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Python/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Microsoft/WindowsApps/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Pycharm/PyCharm 2025.3.3/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HP/AppData/Local/Temp/shellintegration-hrGuFKwQ/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/Qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/qt5.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_144\\jre\\bin"
+        - "E:\\apache-tomcat-9.0.105\\bin"
+        - "E:\\apache-tomcat-9.0.105\\lib"
+        - "D:\\wechatapp\\\u5fae\u4fe1web\u5f00\u53d1\u8005\u5de5\u5177\\dll"
+        - "D:\\mys"
+        - "l-8.0.42-winx64\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\python3.13"
+        - "E:\\python3.13\\Scripts"
+        - "D:\\java\\node-v14.21.3-win-x64"
+        - "D:\\Git\\cmd"
+        - "C:\\Strawberry\\c\\bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
+        - "C:\\Strawberry\\perl\\bin"
+        - "D:\\cmake\\bin"
+        - "D:\\nodejs"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\dotnet\\"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\Pycharm\\PyCharm 2025.3.3\\bin"
+        - "E:\\PyCharm Community Edition 2024.3.5\\bin"
+        - "E:\\IntelliJ IDEA 2022.3.3\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HP\\AppData\\Roaming\\npm"
+        - "C:\\Users\\HP\\.dotnet\\tools"
+        - "C:\\Program Files\\ClaudeCode"
+        - "C:\\Users\\HP\\AppData\\Local\\Temp\\shellintegration-hrGuFKwQ\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/File-Copy-Assistant"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmake"
+        - "C:/Program Files (x86)/File-Copy-Assistant"
+...

@@ -22,38 +22,38 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(myproject_1
+    qt_add_executable(File-Copy-Assistant
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         copyworker.h copyworker.cpp
     )
 # Define target properties for Android with Qt 6 as:
-#    set_property(TARGET myproject_1 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#    set_property(TARGET File-Copy-Assistant APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
 #                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
 # For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
-        add_library(myproject_1 SHARED
+        add_library(File-Copy-Assistant SHARED
             ${PROJECT_SOURCES}
         )
 # Define properties for Android with Qt 5 after find_package() calls as:
 #    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
-        add_executable(myproject_1
+        add_executable(File-Copy-Assistant
             ${PROJECT_SOURCES}
         )
     endif()
 endif()
 
-target_link_libraries(myproject_1 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(File-Copy-Assistant PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
 if(${QT_VERSION} VERSION_LESS 6.1.0)
-  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.myproject_1)
+  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.File-Copy-Assistant)
 endif()
-set_target_properties(myproject_1 PROPERTIES
+set_target_properties(File-Copy-Assistant PROPERTIES
     ${BUNDLE_ID_OPTION}
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
@@ -62,12 +62,12 @@ set_target_properties(myproject_1 PROPERTIES
 )
 
 include(GNUInstallDirs)
-install(TARGETS myproject_1
+install(TARGETS File-Copy-Assistant
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
 if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(myproject_1)
+    qt_finalize_executable(File-Copy-Assistant)
 endif()
