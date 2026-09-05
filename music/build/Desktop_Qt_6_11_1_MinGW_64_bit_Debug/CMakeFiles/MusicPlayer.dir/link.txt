@@ -1,3 +1,0 @@
-E:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\MusicPlayer.dir/objects.a
-E:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\MusicPlayer.dir/objects.a @CMakeFiles\MusicPlayer.dir\objects1.rsp
-E:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MusicPlayer.dir/objects.a -Wl,--no-whole-archive -o MusicPlayer.exe -Wl,--out-implib,libMusicPlayer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MusicPlayer.dir\linkLibs.rsp

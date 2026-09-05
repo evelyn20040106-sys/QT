@@ -1,6 +1,8 @@
-QT += widgets serialport
+QT       += core gui
 
-#串口调试助手
+#计算器
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
 

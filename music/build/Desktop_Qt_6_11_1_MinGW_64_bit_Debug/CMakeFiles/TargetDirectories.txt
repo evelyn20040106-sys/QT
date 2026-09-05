@@ -1,5 +1,0 @@
-E:/qt_project/music/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/MusicPlayer.dir
-E:/qt_project/music/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
-E:/qt_project/music/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
-E:/qt_project/music/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/MusicPlayer_autogen_timestamp_deps.dir
-E:/qt_project/music/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/MusicPlayer_autogen.dir
